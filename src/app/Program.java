@@ -1,8 +1,6 @@
-package App;
+package app;
 
 import chess.ChessMatch;
-
-import java.sql.SQLOutput;
 
 public class Program {
     public static void main(String[] args) {
