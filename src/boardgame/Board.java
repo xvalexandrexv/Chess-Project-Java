@@ -29,7 +29,7 @@ public class Board {
     }
 
     public Piece piece (int row, int column){
-        if(!posistionExists(row, column)){
+        if(!positionExists(row, column)){
             throw new boardException("Position not on the board");
         }
         return pieces[row][column];
@@ -67,12 +67,12 @@ public class Board {
     }
 
 
-    private boolean posistionExists (int row, int column) {
-        return row >= 0 && row < rows && column >= 0 && row < columns;
+    private boolean positionExists (int row, int column) {
+        return row >= 0 && row < rows && column >= 0 && column < columns;
     }
 
     public boolean positionExists (Position position){
-        return posistionExists(position.getRow(), position.getColum());
+        return positionExists(position.getRow(), position.getColum());
     }
 
     public boolean thereIsAPiece(Position position) {

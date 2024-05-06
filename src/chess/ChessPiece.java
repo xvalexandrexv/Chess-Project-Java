@@ -3,7 +3,7 @@ package chess;
 import boardgame.Board;
 import boardgame.Piece;
 import boardgame.Position;
-import javafx.geometry.Pos;
+
 
 public abstract class ChessPiece extends Piece {
 
