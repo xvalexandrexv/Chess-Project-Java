@@ -75,6 +75,7 @@ public class Knight extends ChessPiece{
             mat[p.getRow()][p.getColum()] = true;
         }
 
+
         return mat;
     }
 }
