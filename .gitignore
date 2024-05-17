@@ -30,4 +30,6 @@ bin/
 
 .idea/
 
+*.class
+
 *.iml
