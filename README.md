@@ -1,2 +1,33 @@
-hello
-(C:\Users\xvale\Downloads\1100px_Hibernate_logo_01.png)
+# Terminal Chess Game
+
+A simple chess game implemented in Java. This project allows users to play a classic game of chess directly in the terminal.
+
+
+## Features
+- Two-player chess game
+- Basic move validation
+- Text-based user interface
+
+
+## Installation
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    git clone https://github.com/yourusername/terminal-chess-game.git
+   
+
+2. Navigate to the project directory:
+   src/app
+
+3. Run the application:
+   In the terminal, run the command `java Program.java`.
+
+## Usage
+Once the application is running, follow these steps to start playing:
+
+1. Start the game in the terminal by running the application.
+2. Enter moves using standard chess notation (e.g., `e2 e4`).
+
+
+
+
