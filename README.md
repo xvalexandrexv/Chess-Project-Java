@@ -13,7 +13,7 @@ A simple chess game implemented in Java. This project allows users to play a cla
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-    git clone https://github.com/yourusername/terminal-chess-game.git
+    git clone https://github.com/xvalexandrexv/Chess-Project-Java.git
    
 
 2. Navigate to the project directory:
